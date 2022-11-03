@@ -1,0 +1,11 @@
+# metadata data
+.metadata/
+
+# debug folder
+**/Debug/
+
+# Release folder
+**/Release/
+
+# setting folder
+**/.settings/
