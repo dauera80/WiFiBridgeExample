@@ -9,3 +9,5 @@
 
 # setting folder
 **/.settings/
+
+**/*.launch
