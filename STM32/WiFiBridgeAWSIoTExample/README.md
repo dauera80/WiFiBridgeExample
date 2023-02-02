@@ -59,7 +59,7 @@ NUCLEOEVB 보드 제어 목록, 각 주제별 구독(Subscribe)
 **모니터링 및 제어 용 MQTT Client 앱 추후 업데이트 예정**
 <br>
 
-## Useage
+## Usage
 소스코드에 선언된 `#define WIFIBRIDGE_DEBUG` 및 `#define WIFIBRIDGE_BYPASS`를 변경해 Debug Message를 활성화 시키거나 WiFiBridge UART 데이터를 PC와 연결되는 UART로 bypass 시킬 수 있다.
 
 |WIFIBRIDGE_DEBUG|      설명          |

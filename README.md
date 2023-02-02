@@ -49,7 +49,8 @@
 <br>
 
 ## STM32 예제
-STM32 보드를 사용한 WiFiBridge 사용 예제
+STM32를 사용한 WiFiBridge 사용 예제
 [[README]](https://github.com/dauera80/WiFiBridgeExample/tree/master/STM32)  
 
-1. WiFiBridgeExample [[예제]](https://github.com/dauera80/WiFiBridgeExample/tree/master/STM32/WiFiBridgeSimpleExample)  
+1. WiFiBridgeSimpleExample [[예제]](https://github.com/dauera80/WiFiBridgeExample/tree/master/STM32/WiFiBridgeSimpleExample)  
+2. WiFiBridgeAWSIoTExample [[예제]](https://github.com/dauera80/WiFiBridgeExample/tree/master/STM32/WiFiBridgeAWSIoTExample)  
