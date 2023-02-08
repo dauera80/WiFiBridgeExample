@@ -587,7 +587,7 @@ int WiFiBridge_ReceiveHandler(char *pSubBuf)
 
   if (!RB_isempty(WiFi_RingBuf_Handle))
     {
-      HAL_Delay(1);
+      HAL_Delay(5);
       idx = ReadStringUntil(&pSubBuf[idx], '\r');
       if (!idx)
         {
