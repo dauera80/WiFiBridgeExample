@@ -561,11 +561,12 @@ int Parse_Subscribe_Message(char *pMsg)
         {
           CLCD_Clear();
 
-          clcd_str = strtok(subMsg, "\"");
+          strsep(&subMsg, "\"");
+          clcd_str = strsep(&subMsg, "\"");
           CLCD_Puts(0, 0, clcd_str);
 
-          strtok(NULL, "\"");
-          clcd_str = strtok(NULL, "\"");
+          strsep(&subMsg, "\"");
+          clcd_str = strsep(&subMsg, "\"");
           CLCD_Puts(0, 1, clcd_str);
         }
       ret = 0;
