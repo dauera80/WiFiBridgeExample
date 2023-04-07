@@ -16,7 +16,6 @@ AWS IoT 기능을 사용하기 위해선 Command 사용이 필요하며, Bridge 
 <br>
 
 ## 이미지
-<!-- 결합 이미지 추가 -->
 ![NUCLEOEVB_FullAccessory_V2](https://user-images.githubusercontent.com/67400790/216243724-ae03a490-43a2-466e-a148-832d5c60e436.png)
 
 
@@ -56,7 +55,17 @@ NUCLEOEVB 보드 제어 목록, 각 주제별 구독(Subscribe)
 5. 프로젝트 빌드 및 실행
 6. AWSIoT 콘솔의 MQTT 테스트 클라이언트로 데이터 확인 및 제어
 
-**모니터링 및 제어 용 MQTT Client 앱 추후 업데이트 예정**
+<br>
+
+* 모니터링 및 제어 용 AWS IoT MQTT Client 앱 사용법
+
+<p align="center"><img src="https://user-images.githubusercontent.com/67400790/230561648-d2b7fc92-380b-426e-9055-3522d837a99b.png" border="0" width="50%"></p>
+
+1. Google Play Store에서 "EVBDemo" 검색 후 "NUCLEO EVBDemo IoT" 설치
+2. EndPoint, Region, IAM 계정의 Access Key 및 Secret Access Key를 입력
+3. Display 메뉴에서 데이터 모니터링
+4. Control 및 RGB 메뉴에서 데이터 제어
+
 <br>
 
 ## Usage
